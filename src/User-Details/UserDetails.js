@@ -45,7 +45,7 @@ const UserDetails = () => {
     return (
         <div className="user-details-container">
             <h1><i className="fas fa-user"></i> {t('translation.userDetails')}</h1>
-            <button onClick={changeLocaleToArabic}>Change Locale to Arabic</button>
+            <button onClick={changeLocaleToArabic}>Rtl?</button>
             <div className='user-details'>
                 <h2>{user.login}</h2>
                 <p><i className="fas fa-user"></i> {t('translation.name')}: {user.name}</p>
