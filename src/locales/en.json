@@ -1,0 +1,18 @@
+{
+    "translation": {
+      "userDetails": "User Details",
+      "name": "Name",
+      "followers": "Followers",
+      "following": "Following",
+      "publicRepos": "Public Repositories",
+      "gists": "Gists",
+      "bio": "Bio",
+      "email": "Email",
+      "company": "Company",
+      "location": "Location",
+      "blog": "Blog",
+      "getFollowers": "Get Followers",
+      "topFiveFollowers": "Top 5 Followers"
+    }
+  }
+  
