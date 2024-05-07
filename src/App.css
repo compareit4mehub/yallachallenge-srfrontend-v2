@@ -1,0 +1,18 @@
+.rtl {
+  direction: rtl;
+}
+
+.rtl header button {
+  order: -1;
+}
+
+.banner {
+  background-color: rgb(11, 73, 128);
+  width: 100%;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
