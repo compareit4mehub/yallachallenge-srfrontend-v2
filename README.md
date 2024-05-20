@@ -14,7 +14,7 @@ This assignment is designed to evaluate the following:
 - Fork this repository
 - Create the solutions on your fork
 - Raise a PR with the naming convention `yourfirstname-yourlastname`
-
+- Add Documentation on what is required, dependencies and their version and how to run the project
 
 **Required Skills:**
 - Use React.
