@@ -1,9 +1,3 @@
-# Yalla Challange - Senior Front End Developer - version 2
-
-## Focus Points
-
-This assignment is designed to evaluate the following:
-
 - Attention to Detail
 - Code Quality
 - User Experience
@@ -42,3 +36,9 @@ https://docs.github.com/en/rest/users/users
 **Bonus:**
 - Cache all requests and re-use saved data to show users and user details.
 - Handle Arabic language RTL to be displayed correctly.
+>>>>>>> release
+
+**How to run**
+1- git clone repo-name .
+2- npm install
+3- npm run dev
