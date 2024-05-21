@@ -8,7 +8,7 @@ function App() {
   return (
     <main
       data-theme={isDark ? "dark" : "light"}
-      className="relative min-h-screen w-full flex flex-col justify-center items-center gap-3 poppins bg-base-100 p-5 lg:p-10"
+      className="relative min-h-screen w-full flex flex-col justify-center items-center gap-3 poppins bg-base-100 px-5 lg:px-10 py-20"
     >
       <ThemeToggler />
       <AppRouterProvider />

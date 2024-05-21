@@ -8,9 +8,7 @@ export const UserCard = ({ user }) => {
   const viewProfile = (event, element) => {
     if (event.target === element.querySelector("a")) {
       event.stopPropagation();
-      console.log(event);
     } else {
-      console.log(event);
       navigate(`/users/${user?.login}`);
     }
   };
@@ -37,7 +35,7 @@ export const UserCard = ({ user }) => {
         </div>
       </div>
       <h1 className="text-xl font-bold capitalize text-secondary">
-        {user?.name}
+        {user?.login}
       </h1>
       <a
         href={user?.html_url}
@@ -45,7 +43,7 @@ export const UserCard = ({ user }) => {
         target="_blank"
         title="Login"
       >
-        {user?.login}
+        View Profile
       </a>
     </div>
   );
