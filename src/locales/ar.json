@@ -1,0 +1,17 @@
+{
+    "translation": {
+      "userDetails": "تفاصيل المستخدم",
+      "name": "الاسم",
+      "followers": "المتابعين",
+      "following": "المتابعون",
+      "publicRepos": "المستودعات العامة",
+      "gists": "Gists",
+      "bio": "نبذة",
+      "email": "البريد الإلكتروني",
+      "company": "الشركة",
+      "location": "الموقع",
+      "blog": "المدونة",
+      "getFollowers": "الحصول على المتابعين",
+      "topFiveFollowers": "أفضل 5 متابعين"
+    }
+  }
