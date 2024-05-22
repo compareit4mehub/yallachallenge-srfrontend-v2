@@ -150,9 +150,11 @@ export const UsersList = () => {
 const SkeletonGrid = () => {
   return (
     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-5">
-      {Array(3)
-        .fill()
-        .map((count) => (
+      {
+        // ITS NOT WORKING AFTER DEPLOYING ON VERCEL
+        // Array(3)
+        //   .fill()
+        [1, 2, 3].map((count) => (
           <div
             key={count}
             className="group bg-gray-100 flex flex-col items-center justify-center w-full h-full p-8 rounded-lg cursor-default hover:no-underline animate-pulse" // Removed hover effects
@@ -163,7 +165,8 @@ const SkeletonGrid = () => {
             <div className="w-2/3 rounded-xl h-3 bg-slate-300 animate-pulse mb-3" />
             <div className="w-1/3 rounded-xl h-3 bg-slate-300 animate-pulse" />
           </div>
-        ))}
+        ))
+      }
     </div>
   );
 };

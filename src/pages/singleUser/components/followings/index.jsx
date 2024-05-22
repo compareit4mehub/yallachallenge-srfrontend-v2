@@ -58,9 +58,11 @@ export const FollowingsList = ({ login = null, isLoading, setError }) => {
 const FollowingsListSkeleton = () => {
   return (
     <div className="w-full grid grid-cols-1 items-center justify-center gap-5">
-      {Array(3)
-        .fill()
-        .map((count) => (
+      {
+        // ITS NOT WORKING AFTER DEPLOYING ON VERCEL
+        // Array(3)
+        //   .fill()
+        [1, 2, 3].map((count) => (
           <div
             key={count}
             className="w-full flex items-center gap-3 p-3 rounded-lg bg-base-100 text-base text-center border-2 border-base-300/80 animate-pulse"
@@ -73,7 +75,8 @@ const FollowingsListSkeleton = () => {
               <div className="h-4 bg-gray-300 rounded w-20"></div>
             </div>
           </div>
-        ))}
+        ))
+      }
     </div>
   );
 };
