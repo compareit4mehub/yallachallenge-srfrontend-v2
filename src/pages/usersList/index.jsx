@@ -117,6 +117,7 @@ export const UsersList = () => {
           <input
             type="number"
             min={0}
+            max={100}
             className="w-full text-primary font-semibold bg-transparent h-10 outline-none focus:outline-none active:outline-none rounded-lg"
             value={userPerPage}
             placeholder="No. of records"
