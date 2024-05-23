@@ -84,7 +84,7 @@ export const ProfileCard = ({ user, isLoading }) => {
                   </svg>
 
                   <a
-                    href={`https://www.google.com/maps/place/${user?.blog}`}
+                    href={`${user?.blog}`}
                     target="_blank"
                     className="link-primary"
                   >
