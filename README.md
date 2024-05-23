@@ -1,44 +1,44 @@
 # Yalla Challange - Senior Front End Developer - version 2
 
-## Focus Points
+## Installation
 
-This assignment is designed to evaluate the following:
+1. **Clone the Repository**
 
-- Attention to Detail
-- Code Quality
-- User Experience
-- Deep understanding of browsers and web technologies
+   ```sh
+   git clone https://github.com/mdazlaanzubair/yallachallenge-srfrontend-v2
 
-## Instructions
+   ```
 
-- Fork this repository
-- Create the solutions on your fork
-- Raise a PR with the naming convention `yourfirstname-yourlastname`
-- Add Documentation on what is required, dependencies and their version and how to run the project
+2. **Navigate to the Project Directory**
 
-**Required Skills:**
-- Use React.
-- Use web API.
-- Source Control versioning such as GitHub.
-- Common sense.
-- Quality of code.
-- Styling.
+   ```sh
+   cd yallachallenge-srfrontend-v2
+   ```
 
-## Task Detail
-**Overview:**
-1. We need a page with list of GitHub users as Cards.
-2. 5 users per page.
-3. Each card has Circle User Avatar, login and profile URL.
-4. On clicking user card, it opens another page showing user details such as avatar, login, name, number of followers, number of followings, number of public repos, number of gists, bio, email, company, location, blog and top 5 followers shown as a small avatar/login catalog.
+3. **Install Dependencies**
 
-**Apply yallacompare styles for your project.**
+   ```sh
+   npm install
+   ```
 
+4. **Setup .env with your GitHub URL**
 
-**Endpoints Documentation:**
-https://docs.github.com/en/rest/users/users 
-- Note: GitHub limits un-authenticated requests to 60 requests per hour.
+   ```sh
+   VITE_API_BASE_URL=<YOUR-GITHUB-API-BASE-URL>
+   ```
 
+5. **Start the Development Server**
 
-**Bonus:**
-- Cache all requests and re-use saved data to show users and user details.
-- Handle Arabic language RTL to be displayed correctly.
+   ```sh
+   npm run dev
+   ```
+
+6. **Open the Application in Your Browser**
+
+   ```sh
+   http://127.0.0.1:5173/users
+   ```
+
+## Note
+
+If you encounter any issues or have questions, please refer to the issue tracker for assistance.
